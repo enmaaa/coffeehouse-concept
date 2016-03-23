@@ -1,0 +1,60 @@
+body {
+	background-image: url(./images/coffee-1030971.jpg);
+	background-color: #cccccc;
+	background-size: cover;
+	margin: auto;
+	width: 80%;
+}
+
+#navbar ul {
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	top: 3.5em;
+}
+
+#navbar li {
+	font-family: Economica, sans-serif;
+	text-transform: uppercase;
+	color: #FFF;
+	display: inline-block;
+	padding-left: 2em;
+	padding-right: 2em;
+	vertical-align: middle;
+	font-size: 180%;
+}
+
+#navbar a {
+	color: #FFF;
+	text-decoration: none;
+	position: relative;
+}
+
+#navbar a:hover {
+  color: #FFF;
+}
+
+#navbar a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+#navbar a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+footer ul {
+	list-style-type: none;
+}
